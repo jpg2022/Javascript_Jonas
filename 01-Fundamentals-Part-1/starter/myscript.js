@@ -43,4 +43,7 @@ let out = `${greater}s  BMI (${greaterbmi}) is higher than ${lesser}s `+`(${less
 console.log(out)
 
 */
+//coding challenge 4
+
+
 
