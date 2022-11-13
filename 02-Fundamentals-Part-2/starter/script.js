@@ -97,7 +97,7 @@ const jonas = {
 console.log(jonas["lastname"])
 
 */
-
+/*
 //object methods
 const jonas = {
     firstname: 'Jonas',
@@ -117,3 +117,34 @@ const jonas = {
 
 console.log(jonas.calcAge())
 console.log(jonas.getSummary())
+*/
+/*
+//coding challenge 3
+
+const john = {
+    name: 'John Smith',
+    mass: 92,
+    height: 1.95,
+    BMI: function(){
+        this.bmicalc = (this.mass / this.height) **2
+        return this.bmicalc
+    }
+}
+
+const mark = {
+    name: 'Mark Miller',
+    mass: 78,
+    height: 1.69,
+    BMI: function(){
+        this.bmicalc = (this.mass / this.height) **2
+        return this.bmicalc
+    }
+}
+console.log(`${mark.name} weights ${mark.mass} kg and is   
+${mark.height} m tall. ${john.name} weights ${john.mass} kg
+and is ${john.height} m tall.`)
+*/
+
+//looping through arrays
+
+
