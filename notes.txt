@@ -1,0 +1,2 @@
+Objects in javascript remind of hashmaps that can use the this.
+functionalty on its key value pairs
