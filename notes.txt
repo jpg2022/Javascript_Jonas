@@ -1,2 +1,57 @@
+shift+alt+A
+
 Objects in javascript remind of hashmaps that can use the this.
 functionalty on its key value pairs
+
+y &&= x //asigns y to x if y already exist (truthy)
+
+ x ??= y //asign x to y if x is not null (0 is okay)
+
+ x ||= y //assings if y is not falsy
+
+
+
+ Object.entries(x) is the same format as new Map data structure
+
+ for(const [key, val] of Map){
+    
+ }
+
+
+Sets are like arrays, but only store UNIQUE VALUES, used to remove duplicate
+values from arrays
+
+
+
+array.entries() //gives mutiple arrays with index i of object from original
+array as first element and second element as the actual obj
+
+
+if you munitpulate an object in an function that object will change!!
+NOT just a copy!!
+
+book.call(objname, param1,param2)//the this keyword points to objname
+
+.bind(objname, param1,param2) returns new function with the this 
+keyword and param1 permanantly binded  
+
+
+reduce method for arrays is getting array down to single value
+
+
+inputCloseUsername
+inputClosePin
+
+some method finds things in arrays based on conditions
+
+queryselector finds children of element
+
+.closest finds parents of element
+
+IntersectionObserver is hella weird
+
+
+
+
+Promises for AJAX calls are like lottery tickets, you make the bet
+and then some time in the future you find out if you won or not
